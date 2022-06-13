@@ -79,6 +79,7 @@
 		D23B81F228578501007933F7 = {
 			isa = PBXGroup;
 			children = (
+				D23B823328578B47007933F7 /* Storyboards */,
 				D23B81FD28578501007933F7 /* WeatherApp */,
 				D23B821428578504007933F7 /* WeatherAppTests */,
 				D23B821E28578504007933F7 /* WeatherAppUITests */,
@@ -99,12 +100,13 @@
 		D23B81FD28578501007933F7 /* WeatherApp */ = {
 			isa = PBXGroup;
 			children = (
+				D23B823128578B0F007933F7 /* Modules */,
+				D23B823028578B02007933F7 /* Networking */,
+				D23B822F28578AF8007933F7 /* Resources */,
+				D23B822E28578AE5007933F7 /* Protocols */,
 				D23B81FE28578501007933F7 /* AppDelegate.swift */,
 				D23B820028578501007933F7 /* SceneDelegate.swift */,
 				D23B820228578501007933F7 /* ViewController.swift */,
-				D23B820428578501007933F7 /* Main.storyboard */,
-				D23B820728578503007933F7 /* Assets.xcassets */,
-				D23B820928578503007933F7 /* LaunchScreen.storyboard */,
 				D23B820C28578503007933F7 /* Info.plist */,
 			);
 			path = WeatherApp;
@@ -125,6 +127,52 @@
 				D23B822128578504007933F7 /* WeatherAppUITestsLaunchTests.swift */,
 			);
 			path = WeatherAppUITests;
+			sourceTree = "<group>";
+		};
+		D23B822E28578AE5007933F7 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		D23B822F28578AF8007933F7 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D23B820728578503007933F7 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		D23B823028578B02007933F7 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		D23B823128578B0F007933F7 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				D23B823228578B18007933F7 /* Searching */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		D23B823228578B18007933F7 /* Searching */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Searching;
+			sourceTree = "<group>";
+		};
+		D23B823328578B47007933F7 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				D23B820428578501007933F7 /* Main.storyboard */,
+				D23B820928578503007933F7 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
